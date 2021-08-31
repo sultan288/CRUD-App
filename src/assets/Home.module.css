@@ -1,0 +1,91 @@
+.table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  padding: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.thead {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+.th1 {
+  border-right: 1px solid rgb(248, 248, 248);
+  padding: 10px 70px;
+}
+
+tr:nth-child(even) {
+  color: white;
+  background-color: rgb(58, 95, 214);
+}
+
+.ttbutton {
+  color: rgb(255, 255, 255);
+  background-color: #6e3fb9;
+  border-radius: 15px 15px 0px 0px;
+  margin: 15px 116px;
+  text-align: center;
+  padding-bottom: 6px;
+  font-size: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.crbutton {
+  background-color: #0288d1;
+  color: black;
+  border: 2px solid #1c61bb;
+  background-color: #1c61bb;
+  border-radius: 10px;
+  margin: 20px 116px;
+}
+
+.crbutton:hover {
+  background-color: #01579b;
+  color: white;
+}
+
+.button1 {
+  background-color: #41c300;
+  color: black;
+  border: 1px solid #237028;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.button1:hover {
+  background-color: #008b00;
+  color: white;
+  border-radius: 10px;
+}
+
+.button2 {
+  background-color: #673ab7;
+  color: black;
+  border: 1px solid #4a148c;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.button2:hover {
+  background-color: #4a148c;
+  color: white;
+  border-radius: 10px;
+}
+
+.button3 {
+  background-color: #ef0078;
+  color: black;
+  border: 1px solid #dd2c00;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+.button3:hover {
+  background-color: #880061;
+  color: white;
+  border-radius: 10px;
+}
